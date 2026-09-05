@@ -3,7 +3,7 @@ const http = require("http");
 
 const token = process.env.BOT_TOKEN;
 if (!token) {
-  console.error("❌ BOT_TOKEN مفقود في المتغيرات البيئية");
+  console.error("❌ BOT_TOKEN مفقود");
   process.exit(1);
 }
 
